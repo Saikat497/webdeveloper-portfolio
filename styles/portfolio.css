@@ -18,12 +18,17 @@ body {
     
 }
 
+/* header related styles */
+.header{
+    background-color: #FFF8F3;
+}
 
 /* nav related styles */
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 200px;
 
 }
 
@@ -48,5 +53,9 @@ nav li {
 
 nav a {
     text-decoration: none;
-    color: #474747);
+    color: #474747;
+}
+
+.banner{
+
 }
