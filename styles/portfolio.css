@@ -223,7 +223,45 @@ main section {
     font-size: 16px;
     font-weight: 400;
 }
-.download-cv{
+
+.download-cv {
     text-align: center;
     margin-top: 50px;
 }
+
+/* footer styles */
+footer {
+    display: flex;
+    gap: 100px;
+    background: #FFF8F3;
+    padding: 130px 230px;
+    margin-top: 130px;
+}
+
+.footer-column {
+    width: 50%;
+}
+.social-links a{
+    margin-right: 25px;
+}
+
+.form-contact input[type="text"], .form-contact input[type="email"],
+textarea {
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 30px;
+
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+
+    border-radius: 5px;
+    background: #FFF;
+    border: 0;
+
+    width: 100%;
+
+}
+
+
+
